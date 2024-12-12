@@ -28,7 +28,7 @@ class Main {
         library.addBook(book3)
 
         // Define the library's address
-        val address = Library.LibraryAddress("com.example.kotlin_classes.Main St. 123", "Sample City", "12345")
+        val address = Library.LibraryAddress("Main St. 123", "Sample City", "12345")
         address.printAddress()  // Print the address
 
         // Create a library member
@@ -60,8 +60,8 @@ class Main {
 }
 
 /**
- * The com.example.kotlin_classes.main function is the entry point of the application.
- * It creates an instance of the com.example.kotlin_classes.Main class and calls the `run` function to execute the program.
+ * main function is the entry point of the application.
+ * It creates an instance of the Main class and calls the `run` function to execute the program.
  */
 fun main() {
     val mainApp = Main() // Create an instance of the com.example.kotlin_classes.Main class
