@@ -1,0 +1,56 @@
+# Gradle files
+.gradle/
+build/
+*.gradle
+.gradle*/  # to cover all possible subdirectories
+
+# Android specific
+local.properties
+.idea/
+*.iml
+
+# User-specific files
+*.swp
+*.swo
+
+# Kotlin specific
+*.kotlin_build/
+
+# Log files
+*.log
+
+# IntelliJ IDEA files
+*.iws
+*.ipr
+*.idea/
+
+# Android Studio files
+*.db
+*.bak
+*.orig
+*.log
+*.swp
+*.swo
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Keystore files
+*.jks
+*.keystore
+
+# Misc
+*.apk
+*.ap_
+*.dex
+*.class
+*.jar
+*.war
+*.ear
+
+# Jetpack Compose specific
+out/
+
+# Firebase specific
+google-services.json
